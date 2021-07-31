@@ -1,0 +1,65 @@
+.main {
+  width: 90%;
+}
+
+.nav {
+  display: flex;
+  background: transparent;
+  justify-content: space-between;
+  margin-top: calc(20px + 1vw);
+  & > h1 {
+    font-size: calc(18px + 1vw);
+    font-weight: 500;
+    margin: 0px;
+  }
+}
+
+.heading {
+  font-weight: 400;
+  margin-top: calc(60px + 2vw);
+  font-size: calc(30px + 3vw);
+  max-width: 80%;
+}
+
+.sectionOne {
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: calc(110px + 3vw) 1fr 1fr;
+  grid-column-gap: 15%;
+  grid-row-gap: 10%;
+}
+
+.bio {
+  font-size: calc(10px + 1vw);
+  opacity: 70%;
+}
+
+.socials {
+  grid-row: 2/3;
+  grid-template-columns: calc(20px + 2vw) calc(20px + 2vw) calc(20px + 2vw);
+  grid-column-gap: calc(20px - 2vw);
+  grid-template-rows: 1fr;
+}
+
+.socialIcons {
+  width: calc(20px + 2vw);
+  cursor: inherit;
+}
+
+.sectionOneImage {
+  grid-column: 2/3;
+}
+
+.contact {
+  grid-row: 3/4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s all;
+  border-radius: 3px;
+  font-family: 'Fira Code', monospace;
+  width: calc(200px + 2vw);
+  height: calc(40px + 1vw);
+  background: transparent;
+  cursor: inherit;
+}
