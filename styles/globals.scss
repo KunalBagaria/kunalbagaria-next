@@ -7,11 +7,17 @@ body {
   min-height: 100vh;
   font-family: 'Fira Code', monospace;
   cursor: url('/cursor.png'), auto;
+  scroll-behavior: smooth;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  cursor: url('/cursor.png'), auto;
+}
+
+p {
+  cursor: url('/cursor.png'), auto;
 }
 
 * {
@@ -24,4 +30,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#sectionImages {
+  & {
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
 }

@@ -21,11 +21,15 @@ const Home = () => {
         <Grid className={styles.sectionOne}>
           <p className={styles.bio}>I’m a {age} years old full stack web developer who loves to make new and awesome projects.</p>
           <Socials />
-          <a className={styles.contact} id="button" target="_blank" rel="noopener noreferrer" href="mailto://hi@kunalbagaria.com">CONTACT</a>
-          <div className={styles.sectionOneImage}>
+          <div className={styles.sectionOneImage} id="sectionImages">
             <Image src={sectionOne} alt="Section One" />
           </div>
         </Grid>
+        <a className={styles.contact} id="button" target="_blank" rel="noopener noreferrer" href="mailto://hi@kunalbagaria.com">CONTACT</a>
+
+        <section>
+          <h1>{'=> Projects'}</h1>
+        </section>
 
       </main>
 

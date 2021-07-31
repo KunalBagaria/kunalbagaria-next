@@ -25,11 +25,17 @@
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: calc(110px + 3vw) 1fr 1fr;
-  grid-column-gap: 15%;
-  grid-row-gap: 10%;
+  grid-column-gap: 20%;
+  grid-row-gap: 20%;
+  & {
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+  }
 }
 
 .bio {
+  grid-row: 1/2;
   font-size: calc(10px + 1vw);
   opacity: 70%;
 }
@@ -51,6 +57,7 @@
 }
 
 .contact {
+  margin-top: calc(10px + 1vw);
   grid-row: 3/4;
   display: flex;
   align-items: center;
