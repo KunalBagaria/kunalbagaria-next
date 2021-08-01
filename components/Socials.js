@@ -14,7 +14,7 @@ const socialIcons = [
     {
         src: discord,
         alt: 'Discord',
-        link: 'https://discord.gg/0Zc5ZD9X9Zb9Xb5b'
+        link: 'https://discord.gg/eBaFj2ytTU'
     },
     {
         src: twitter,

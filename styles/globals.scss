@@ -8,6 +8,7 @@ body {
   font-family: 'Fira Code', monospace;
   cursor: url('/cursor.png'), auto;
   scroll-behavior: smooth;
+  margin-bottom: 50px;
 }
 
 a {
@@ -18,11 +19,15 @@ a {
 
 p {
   cursor: url('/cursor.png'), auto;
+  letter-spacing: 0.1em;
 }
 
 * {
   box-sizing: border-box;
   cursor: inherit;
+  &::selection {
+    background: rgb(255, 126, 244);
+  }
 }
 
 #__next {
