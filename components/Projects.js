@@ -5,12 +5,12 @@ import { Flex } from '../components/StyleComponents'
 
 export const projectsLinks = [
     {
-        name: 'THREADROLL',
-        link: 'https://threadroll.app'
+        name: 'REDOCK',
+        link: 'https://github.com/kb24x7/redock'
     },
     {
-        name: 'WWDC COMMUNITY WEEK 2021',
-        link: 'https://wwdc.community'
+        name: 'THREADROLL',
+        link: 'https://threadroll.app'
     },
     {
         name: 'VACCINE18',
