@@ -56,8 +56,7 @@
 .socials {
   display: grid;
   grid-template-columns: calc(20px + 2vw) calc(20px + 2vw) calc(20px + 2vw);
-  grid-column-gap: calc(20px - 2vw);
-  grid-template-rows: 1fr;
+  grid-column-gap: 12px;
 }
 
 .socialIcons {
