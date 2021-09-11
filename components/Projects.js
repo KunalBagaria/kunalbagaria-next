@@ -28,7 +28,7 @@ export const Projects = () => (
             <Image src={sectionTwo} alt="sectionTwo" />
         </div>
         <div className={styles.projectsLinks}>
-            <h1 className={styles.sectionHeading}>{'=> Projects'}</h1>
+            <h1 className={styles.sectionHeading}>{'=> Popular Projects'}</h1>
             {projectsLinks.map((project, index) => (
                 <a id="button" className={styles.project} key={index} href={project.link} rel="noopener noreferrer" target="_blank">
                     <p>{project.name}</p>

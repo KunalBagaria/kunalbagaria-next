@@ -4,6 +4,7 @@
 
 .nav {
   display: flex;
+  align-items: center;
   background: transparent;
   justify-content: space-between;
   margin-top: calc(20px + 1vw);
@@ -123,7 +124,10 @@
   }
 }
 
-
+.themeSwitcher{
+  max-width: calc(15px + 0.5vw);
+  cursor: url('/cursor.png'), auto;
+}
 
 
 
