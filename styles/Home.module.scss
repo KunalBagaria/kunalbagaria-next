@@ -56,8 +56,12 @@
 
 .socials {
   display: grid;
-  grid-template-columns: calc(20px + 2vw) calc(20px + 2vw) calc(20px + 2vw);
+  width: 25%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 12px;
+  @media screen and (max-width: 600px) {
+    width: 60%;
+  }
 }
 
 .socialIcons {
@@ -144,15 +148,21 @@
 
 .skillsGrid {
   width: 100%;
-  grid-template-columns: 0.6fr 1.4fr;
+  grid-template-columns: 1fr 1fr;
   font-size: calc(10px + 0.5vw);
   align-items: center;
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .skillLevel {
   height: calc(15px + 1vw);
   background: linear-gradient(90deg, #FFDCDC 0%, #A8E0FF 100%);
   border-radius: calc(4px + 0.2vw);
+  @media screen and (max-width: 600px) {
+    justify-self: flex-end;
+  }
 }
 
 .sectionThreeImage {

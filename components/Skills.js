@@ -15,18 +15,18 @@ const skillsObj = [
 
 export const Skills = () => (
     <Flex className={styles.skillsParent}>
-        <div class={styles.skillSection}>
+        <div className={styles.skillSection}>
             <h1 className={styles.sectionHeading}>{'=> Skills'}</h1>
             <Grid className={styles.skillsGrid}>
                 {skillsObj.map((skill, index) => (
-                    <>
+                    <div key={index}>
                         <p>{`${skill.name} ->`}</p>
-                        <div style={{ width: skill.level }} className={styles.skillLevel} key={index}></div>
-                    </>
+                        <div style={{ width: skill.level }} className={styles.skillLevel}></div>
+                    </div>
                 ))}
             </Grid>
         </div>
-        <div class={styles.sectionThreeImage}>
+        <div className={styles.sectionThreeImage}>
             <Image src={sectionThree} alt="sectionThree" />
         </div>
     </Flex>
