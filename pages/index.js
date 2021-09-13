@@ -35,9 +35,9 @@ const Home = () => {
           <Projects />
         </section>
 
-        {/* <section className={styles.sectionThree}>
+        <section className={styles.sectionThree}>
           <Skills />
-        </section> */}
+        </section>
 
 
         <section className={styles.footer}>

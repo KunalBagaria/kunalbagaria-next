@@ -24,7 +24,7 @@ p {
 
 * {
   box-sizing: border-box;
-  cursor: inherit;
+  cursor: url('/cursor.png'), auto;
   &::selection {
     background: rgb(255, 126, 244);
   }

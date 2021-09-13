@@ -18,8 +18,21 @@ export const GlobalStyles = createGlobalStyle`
         transition: all 0.50s linear;
     }
     img {
+        transition: .25s linear;
         -webkit-filter: ${({ theme }) => theme.imageInvert ? 'invert(1)' : 'none'};
         filter: ${({ theme }) => theme.imageInvert ? 'invert(1)' : 'none'};
+    }
+    #discord:hover {
+        -webkit-filter: ${({ theme }) => theme.imageInvert ? 'none' : 'invert(1)'};
+        filter: ${({ theme }) => theme.imageInvert ? 'none' : 'invert(1)'};
+    }
+    #twitter:hover {
+        -webkit-filter: ${({ theme }) => theme.imageInvert ? 'none' : 'invert(1)'};
+        filter: ${({ theme }) => theme.imageInvert ? 'none' : 'invert(1)'};
+    }
+    #github:hover {
+        -webkit-filter: ${({ theme }) => theme.imageInvert ? 'none' : 'invert(1)'};
+        filter: ${({ theme }) => theme.imageInvert ? 'none' : 'invert(1)'};
     }
     #button {
         border: 1px solid ${({ theme }) => theme.text};

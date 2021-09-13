@@ -29,6 +29,7 @@
 
 .sectionHeading {
   font-size: calc(20px + 0.5vw);
+  margin-bottom: 25px;
   font-weight: 400;
 }
 
@@ -77,6 +78,7 @@
   transition: .3s all;
   border-radius: 3px;
   font-family: 'Fira Code', monospace;
+  font-size: calc(9px + 0.5vw);
   width: calc(200px + 2vw);
   height: calc(40px + 1vw);
   background: transparent;
@@ -94,6 +96,7 @@
 
 .project {
   display: flex;
+  font-size: calc(12px + 0.4vw);
   width: 100%;
   height: calc(50px + 3vw);
   align-items: center;
@@ -116,8 +119,46 @@
 
 .sectionTwoImage {
   width: calc(180px + 14vw);
-  margin-top: 4%;
+  margin-top: 5%;
   @media screen and (max-width: 600px) {
+    width: 0%;
+    display: none;
+  }
+}
+
+.skillsParent {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.skillSection {
+  width: 60%;
+  @media screen and (max-width: 900px) {
+    width: 85%;
+  }
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.skillsGrid {
+  width: 100%;
+  grid-template-columns: 0.6fr 1.4fr;
+  font-size: calc(10px + 0.5vw);
+  align-items: center;
+}
+
+.skillLevel {
+  height: calc(15px + 1vw);
+  background: linear-gradient(90deg, #FFDCDC 0%, #A8E0FF 100%);
+  border-radius: calc(4px + 0.2vw);
+}
+
+.sectionThreeImage {
+  width: calc(180px + 14vw);
+  margin-top: 4%;
+  @media screen and (max-width: 900px) {
     width: 0%;
     display: none;
   }
