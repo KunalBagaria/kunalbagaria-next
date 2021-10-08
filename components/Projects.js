@@ -5,16 +5,16 @@ import { Flex } from '../components/StyleComponents'
 
 export const projectsLinks = [
     {
+        name: 'RUSTYVIBES',
+        link: 'https://github.com/kb24x7/rustyvibes'
+    },
+    {
         name: 'REDOCK',
         link: 'https://github.com/kb24x7/redock'
     },
     {
         name: 'THREADROLL',
         link: 'https://threadroll.app'
-    },
-    {
-        name: 'VACCINE18',
-        link: 'https://vaccine18.com'
     },
     {
         name: 'SMORTBOT',
