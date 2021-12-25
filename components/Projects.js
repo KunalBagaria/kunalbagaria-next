@@ -5,20 +5,20 @@ import { Flex } from '../components/StyleComponents'
 
 export const projectsLinks = [
     {
+        name: 'WAGMI',
+        link: 'https://wagmi.bio'
+    },
+    {
+        name: 'DISWALLET',
+        link: 'https://github.com/kb24x7/diswallet'
+    },
+    {
         name: 'RUSTYVIBES',
         link: 'https://github.com/kb24x7/rustyvibes'
     },
     {
-        name: 'REDOCK',
-        link: 'https://github.com/kb24x7/redock'
-    },
-    {
-        name: 'THREADROLL',
-        link: 'https://threadroll.app'
-    },
-    {
-        name: 'SMORTBOT',
-        link: 'https://dsc.gg/smort'
+        name: 'VACCINE18',
+        link: 'https://vaccine18.com'
     }
 ]
 
