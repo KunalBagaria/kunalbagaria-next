@@ -10,15 +10,15 @@ export const projectsLinks = [
     },
     {
         name: 'DISWALLET',
-        link: 'https://github.com/kb24x7/diswallet'
+        link: 'https://diswallet.app'
     },
     {
         name: 'RUSTYVIBES',
         link: 'https://github.com/kb24x7/rustyvibes'
     },
     {
-        name: 'VACCINE18',
-        link: 'https://vaccine18.com'
+        name: 'REDOCK',
+        link: 'https://github.com/kb24x7/redock'
     }
 ]
 
