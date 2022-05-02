@@ -14,11 +14,11 @@ export const projectsLinks = [
     },
     {
         name: 'RUSTYVIBES',
-        link: 'https://github.com/kb24x7/rustyvibes'
+        link: 'https://github.com/kunalbagaria/rustyvibes'
     },
     {
         name: 'REDOCK',
-        link: 'https://github.com/kb24x7/redock'
+        link: 'https://github.com/kunalbagaria/redock'
     }
 ]
 
