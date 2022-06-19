@@ -5,7 +5,7 @@ const socialIcons = [
     {
         src: '/icons/github.svg',
         alt: 'github',
-        link: 'https://github.com/kb24x7'
+        link: 'https://github.com/kunalbagaria'
     },
     {
         src: '/icons/discord.svg',
